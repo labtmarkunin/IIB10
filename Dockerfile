@@ -124,7 +124,8 @@ ENV ODBCINI=/etc/odbc.ini
 EXPOSE 4414 7800 7883 1414 9443
 
 #Copy BARs
-COPY *.bar  /etc/mqm/
+COPY Case_1.bar  /etc/mqm/
+COPY *.bar  /etc
 
 #mqm/
 
